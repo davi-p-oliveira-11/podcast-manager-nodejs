@@ -3,19 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "start:dev": "tsx src/server.ts",
-    "start:watch": "tsx watch src/server.ts",
+    "start:dev": "tsx --env-file=.env src/server.ts",
+    "start:watch": "tsx --env-file=.env watch src/server.ts",
     "dist": "tsup src",
-    "start:dist": "npm run dist && node/server.js"
+    "start:dist": "npm run dist && --env-file=.env node/server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node": "^22.10.10",
     "tsup": "^8.3.5",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
