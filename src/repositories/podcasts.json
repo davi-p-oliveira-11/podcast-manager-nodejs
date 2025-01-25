@@ -10,5 +10,17 @@
     "episodeName": "RUBENS BARRICHELO- Flow #339",
     "videoId": "pQSuQmUfS30",
     "categories": ["esporte", "corrida"]
+  },
+  {
+    "podcastName": "flow",
+    "episodeName": "João Sujo - Flow #666",
+    "videoId": "000000",
+    "categories": ["esporte", "lifestyle"]
+  },
+  {
+    "podcastName": "venus",
+    "episodeName": "Xuxa - Flow #322",
+    "videoId": "0000000",
+    "categories": ["humor"]
   }
 ]
